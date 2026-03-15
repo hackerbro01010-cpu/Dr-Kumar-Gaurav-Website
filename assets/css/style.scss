@@ -1,0 +1,68 @@
+---
+
+$primary-color: #2e7d32;
+$dark-color: #1b5e20;
+$light-bg: #f4f6f7;
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: $light-bg;
+}
+
+header {
+  background: $primary-color;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: $dark-color;
+  padding: 10px;
+  text-align: center;
+
+  a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+section {
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+button {
+  background: $primary-color;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+
+  &:hover {
+    background: $dark-color;
+  }
+}
+
+footer {
+  background: $dark-color;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
